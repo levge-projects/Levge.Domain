@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>1.0.0</Version>
+		<Authors>Serdar ÖZKAN</Authors>
+		<Company>Levge</Company>
+		<Description>Domain base entity and contracts for Levge projects.</Description>
+		<PackageTags>domain;entity;baseentity;levge</PackageTags>
+		<RepositoryUrl>https://github.com/levge-projects/Levge.Domain</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://www.linkedin.com/in/serdarozkan41</PackageProjectUrl>
+		<Copyright>Serdar ÖZKAN</Copyright>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
