@@ -25,4 +25,8 @@
 			<PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Levge.Exceptions" Version="1.0.0" />
+	</ItemGroup>
 </Project>
