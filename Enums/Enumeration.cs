@@ -46,5 +46,10 @@ namespace Levge.Domain.Enums
             return GetAll<T>().FirstOrDefault(e => e.Name == name)
                    ?? throw new LevgeValidationException(nameof(name), $"Invalid name '{name}' for {typeof(T).Name}");
         }
+
+        public bool IsOneOf(params Enumeration[] values)
+        {
+            return values.Any(v => Equals(v));
+        }
     }
 }
